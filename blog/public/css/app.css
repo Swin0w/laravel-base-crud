@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a .card {
+  background-color: #851b00;
+  width: calc(100% - 60px);
+  height: 100px;
+  margin: 10px 30px;
+  text-align: center;
+}
+
