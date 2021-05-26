@@ -3,7 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#gen-guest {
+    background-color: #000;
+    width: 120px;
+    height: 50px;
+    margin: 10px 30px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    a {
+        color: #fff;
+    }
+}
 li {
     list-style: none;
     a {
@@ -17,4 +28,13 @@ li {
             text-align: center;
         }
     }
+}
+// ----------------------------------------------------
+// Page informativa sui clienti
+#info {
+    background-color:rgb(133, 27, 0);
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }

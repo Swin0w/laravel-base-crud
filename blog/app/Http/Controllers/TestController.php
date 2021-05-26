@@ -11,4 +11,11 @@ class TestController extends Controller
         $guests = Ospiti::all();
         return view('pages.home', compact('guests'));
     }
+    public function info($id) {
+        $ospite = Ospiti::findOrFail($id);
+        return view ('pages.info', compact('ospite'));
+    }
+    public function gen_guest() {
+        return view ('pages.gen_guest');
+    }
 }
