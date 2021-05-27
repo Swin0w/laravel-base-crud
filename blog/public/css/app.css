@@ -43,3 +43,19 @@ li a .card {
   text-align: center;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 350px auto;
+}
+
+#form input {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#form h1 {
+  text-align: center;
+}
+

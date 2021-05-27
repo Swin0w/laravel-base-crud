@@ -38,3 +38,18 @@ li {
     margin: 0 auto;
     text-align: center;
 }
+//----------------------------------------------------
+// Registrazione nuovo cliente
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 350px auto;
+    input {
+        margin: 10px 0;
+        padding: 10px;
+    }
+    h1 {
+        text-align: center;
+    }
+}

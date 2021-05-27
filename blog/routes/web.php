@@ -15,9 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'TestController@home')
     -> name('home');
-    
+
 Route::get ('/info/{id}', 'TestController@info')
     -> name('info');
 
 Route::get('/gen_guest', 'TestController@gen_guest')
     ->name('gen_guest');
+
+Route::post('/store/info', 'TestController@store')
+    -> name('store');
